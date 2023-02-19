@@ -1,0 +1,257 @@
+.icon {
+    font-weight: bold;
+    font-size: 60px;
+    font-family: serif;
+}
+
+.stylebtn {
+    background-color: #964B00;
+    border-color: #964B00;
+    color: white;
+    padding: 6px;
+}
+
+.hlo {
+    font-size: 35px;
+    font-family: serif;
+}
+
+.navbar-primary {
+    padding-bottom: 1rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    position: relative;
+    text-align: center;
+    transition: color .45s cubic-bezier(.16, .68, .23, 1), background .45s cubic-bezier(.16, .68, .23, 1);
+
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    list-style-type: disc;
+
+}
+
+.inline-block {
+    display: inline-block;
+    font-family: serif;
+}
+
+button {
+    cursor: pointer;
+    background-color: white;
+    border-color: white;
+    font-family: serif;
+    color: #6F4E37;
+    padding: 20px;
+
+}
+
+.navbar-primary__toggle {
+    position: relative;
+    font-family: serif;
+}
+
+.pretitle {
+    font-family: serif;
+    font-size: 30px;
+    letter-spacing: .05em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.image {
+    height: 200px;
+    width: 250px;
+    padding: 10px;
+}
+
+.head3 {
+    color: #6F4E37;
+    font-size: 40px;
+}
+
+.heading {
+
+    color: #6F4E37;
+    font-weight: 100;
+    font-size: 70px;
+    font-family: serif;
+    margin: 40px;
+    padding: 20px;
+    text-align: center;
+}
+
+.head4 {
+    color: #6F4E37;
+
+    text-align: center;
+    font-family: serif;
+    font-weight: 100;
+    font-size: 70px;
+}
+
+
+.imagee {
+    height: 400px;
+    width: 250px;
+    padding: 10px;
+}
+
+.imageee {
+    height: 200px;
+    width: 250px;
+    padding: 10px;
+}
+
+.head6 {
+    color: black;
+    font-family: serif;
+    font-weight: bold;
+}
+
+.para {
+    font-family: serif;
+    color: #6F4E37;
+}
+
+.conte {
+    padding: 10px;
+}
+
+.background-container {
+    background-color: white;
+}
+
+.services-head {
+    font-family: "Serif";
+    margin: 10px;
+    color: #6F4E37;
+    font-weight: 100;
+    text-align: center;
+    font-size: 70px;
+}
+
+.services-sub-head {
+    font-family: "Serif";
+    font-weight: bold;
+
+    color: black;
+}
+
+.description {
+    font-family: "Roboto";
+
+    color: #6F4E37;
+}
+
+.button {
+    background-color: #964B00;
+    color: white;
+    font-family: "Serif";
+    padding: 10px;
+}
+
+.image-size {
+    height: 300px;
+    width: 450px;
+}
+
+.inner-bg {
+    background-color: rgb(61, 7, 7);
+    background-size: cover;
+    padding: 20px;
+
+}
+
+.inner-button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(61, 7, 7);
+    font-family: "Serif";
+
+}
+
+.inner-img {
+    height: 340px;
+    width: 400px;
+}
+
+.inner-head {
+    font-family: "Serif";
+    margin: 10px;
+    color: bisque;
+}
+
+.inner-para {
+    font-family: "Roboto";
+    color: azure;
+}
+
+.imgage {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+.background-container10 {
+    background-color: white;
+}
+
+.main-head10 {
+    font-family: "Serif";
+    margin: 10px;
+}
+
+.button10 {
+    background-color: rgb(40, 10, 10);
+    color: white;
+    font-family: "Serif";
+
+}
+
+.follow-us-section {
+    background-color: white;
+}
+
+.icon {
+    color: rgb(40, 10, 10);
+    font-size: 35px;
+}
+
+.head9 {
+    color: #6F4E37;
+    text-align: center;
+    font-family: serif;
+    font-weight: 100;
+    font-size: 70px;
+}
+
+
+
+@media (max-width:576px) and (max-height:480px) {
+    .inner-img {
+        height: 200px;
+        width: 20px;
+    }
+}
+
+@media (orientation:portrait) and (max-width:767px) {
+    .inner-img {
+        height: 300px;
+        width: 540px;
+        margin-left: 0px;
+    }
+
+    .inner-bg {
+        margin-left: 12px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .inner-img {
+        width: 700px;
+    }
+}
